@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city"
+    android:alpha="0.6"
+    android:orientation="vertical"
+    tools:context=".fragment.SetorFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="320dp"
+            android:layout_marginTop="72dp"
+            android:background="@color/colorPrimary"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Pilih Jenis Sampah"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/jenisSampah"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/spinner_border"
+                android:entries="@array/jenis_sampah" />
+
+            <EditText
+                android:id="@+id/beratSampah"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints="@string/prompt_password"
+                android:background="@drawable/spinner_login"
+                android:hint="Berat Sampah"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jenisSampah" />
+
+            <Button
+                android:id="@+id/btnSetor"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginEnd="48dp"
+                android:background="@drawable/btn_rounded"
+                android:text="SETOR"
+                android:textColor="#fff" />
+
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "813455554769",
+    "firebase_url": "https://bank-sampah-dac3b-default-rtdb.firebaseio.com",
+    "project_id": "bank-sampah-dac3b",
+    "storage_bucket": "bank-sampah-dac3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813455554769:android:7acf73b8d6d5ca82812df0",
+        "android_client_info": {
+          "package_name": "com.example.banksampah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813455554769-dcdlqastsmmm7gn475i4kgoi0g707fi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf-rgMLO-mhJ0l8IgD3OZHtehj6uDtGcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813455554769-dcdlqastsmmm7gn475i4kgoi0g707fi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
