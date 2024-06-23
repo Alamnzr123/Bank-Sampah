@@ -9,6 +9,12 @@ Aplikasi Bank Sampah
 4. Build and Run
 5. You are Ready to Go
 
+## Installing APK to Smartphone
+
+1. Add `app-debug.apk` to your storage from Root folder
+2. Install apk to your Smartphone
+3. You are ready to go
+
 ## Table of contents
 
 - [Installation](#Installation)
